@@ -1,0 +1,10 @@
+[package]
+name = "lua_32bit"
+version = "0.1.0"
+edition = "2018"
+
+[dependencies]
+mlua = { version = "0.5", features = ["lua53", "vendored"] }
+
+[patch.crates-io]
+lua-src = { path = "lua-src" }

@@ -1,0 +1,7 @@
+[package]
+name = "lua-src"
+version = "542.0.0"
+edition = "2018"
+
+[dependencies]
+cc = "1.0"
